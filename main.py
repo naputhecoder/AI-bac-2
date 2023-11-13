@@ -1,3 +1,5 @@
+print("May tinh phuong trinh bac 2 ax^2 + bx + c = 0 tot nhat VN")
+print("Viec cua may la nhap a, b, c cho tao")
 import math
 a = input("nhap A: ")
 b = input("nhap B: ")
@@ -24,3 +26,4 @@ else:
     x2=(-b- math.sqrt(delta))/(2*a)
     print("x1= ", x1)
     print("x2= ", x2)
+
